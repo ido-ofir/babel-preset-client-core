@@ -1,0 +1,24 @@
+{
+  "name": "babel-preset-client-core",
+  "version": "1.0.2",
+  "description": "babel preset for client-core replaces react preset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "client-core",
+    "babel",
+    "preset"
+  ],
+  "author": "ido.ofir",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-syntax-flow": "^6.3.13",
+    "babel-plugin-syntax-jsx": "^6.3.13",
+    "babel-plugin-transform-flow-strip-types": "^6.3.13",
+    "babel-plugin-transform-react-display-name": "^6.3.13",
+    "babel-plugin-transform-react-jsx": "^6.3.13",
+    "babel-plugin-transform-react-jsx-source": "^6.3.13"
+  }
+}
